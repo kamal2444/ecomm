@@ -22,10 +22,24 @@ text-transform: capitalize;
     display: flex;
     justify-content: space-between;
     color: white;
-    background-color: black;
 }
 .anousment{
 display: flex;
 justify-content: space-between;
 gap: 10px;
+}
+.nav_left_side,.nav_bar,.nav_text{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.anousment-bar-section{
+    background-color: black;
+}
+.nav_bar{
+    padding:10px 0px;
+    justify-content: baseline;
+} 
+@media only screen and (min-width: 1200px){
+  
 }
